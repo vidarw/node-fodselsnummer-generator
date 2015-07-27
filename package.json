@@ -1,0 +1,33 @@
+{
+  "name": "fodselsnummer-generator",
+  "version": "1.0.0",
+  "description": "Generates an array of possible fødselsnummer (Norwegian SSN) based on a given date",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vidarw/node-fodselsnummer-generator.git"
+  },
+  "keywords": [
+    "fødselsnummer",
+    "personnummer",
+    "generator",
+    "norwegian",
+    "ssn",
+    "norsk"
+  ],
+  "author": "Vidar Waagbø <vidar@waagbo.com> (https://github.com/vidarw)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vidarw/node-fodselsnummer-generator/issues"
+  },
+  "homepage": "https://github.com/vidarw/node-fodselsnummer-generator",
+  "dependencies": {
+    "moment": "^2.10.5"
+  }
+}
